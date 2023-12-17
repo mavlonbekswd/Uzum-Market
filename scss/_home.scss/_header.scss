@@ -1,0 +1,186 @@
+.Uzum-header{
+    width: 1700px;
+    height: 700px;
+    border: $border;
+    &-nav{
+        width: 1500px;
+        height: 200px;
+        border: $border;
+        &-top{
+            width: 100%;
+            height: 20%;
+            border: $border;
+            display: flex;
+            background-color: rgb(220, 241, 255);
+            &-left{
+                width: 30%;
+                height: 100%;
+                border: $border;
+                display: flex;
+                flex-direction: row;
+                gap: 10px;
+                justify-content: center;
+                align-items: center;
+                p{
+                    color: black;
+                    font-size: 18px;
+                    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    span{
+                        color: rgb(140, 138, 138);
+                        text-decoration: underline;
+                    }
+                }
+            }
+            &-center{
+                width: 35%;
+                height: 100%;
+                border: $border;
+                display: flex;
+                flex-direction: row;
+                gap: 10px;
+                justify-content: center;
+                align-items: center;
+                p{
+                    color: black;
+                    font-size: 18px;
+                    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    
+                }
+            }
+            &-right{
+                width: 30%;
+                height: 100%;
+                border: $border;
+                display: flex;
+                flex-direction: row;
+                gap: 10px;
+                justify-content: center;
+                align-items: center;
+                p{
+                    color: black;
+                    font-size: 18px;
+                    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    
+                }
+                select{
+                    background-color: rgb(220, 241, 255);
+                    border: none;
+                    font-size: 18px;
+                    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                   
+                }
+            }
+        }
+        &-center{
+            width: 100%;
+            height: 50%;
+            border: $border;
+            display: flex;
+           
+            
+            .Uzum-header-nav-top-center-left{
+                width: 30%;
+                height: 100%;
+                border: $border;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                img{
+                    width: 65%;
+                    height: 70%;
+
+                }
+                .katalog{
+                    width: 30%;
+                    height: 45%;
+                    border-radius: 5px;
+                    background-color: rgb(220, 215, 237);
+                    display: flex;
+                    align-items: center;
+                    flex-direction: row;
+                    transition: 0.30s;
+                    
+                    p{
+                        font-size: 18px;
+                    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                        color: #6134c2;
+                        
+                    }
+                }
+                :hover{
+                    background-color:#bab0ce ;
+                }
+
+            }
+            .Uzum-header-nav-top-center-center{
+                width: 45%;
+                height: 100%;
+                border: $border;
+                display: flex;
+                align-items: center;
+                position: relative;
+                i{
+                    top: 40%;
+                    position: absolute;
+                    right: 5%;
+                }
+                input{
+                    width: 100%;
+                    height: 50%;
+                    border-radius: 5px;
+                    
+                    border-color: #bab0ce;
+                    ::placeholder{
+                        font-size: 18px;
+                    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    }
+                }
+                ::placeholder{
+                    font-size: 18px;
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                padding-left: 10px;
+                }
+            }
+            .Uzum-header-nav-top-center-right{
+                width: 20%;
+                height: 100%;
+                border: $border;
+                display: flex;
+                align-items: center;
+                flex-direction: row;
+                gap: 10px;
+                :hover{
+                    color:#bab0ce;
+                }
+                p{
+                    font-size: 18px;
+                    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+                }
+
+            }
+        }
+        &-bottom{
+            width: 100%;
+            height: 30%;
+            border: $border;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            p{
+                font-size: 18px;
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+                color:#7f7e7f; 
+            }
+        }
+    }
+    &-hero{
+        width: 1500px;
+        height: 500px;
+        border: $border;
+        img{
+            width: 100%;
+            height: 100%;
+            border-radius: 5px;
+        }
+    }
+}

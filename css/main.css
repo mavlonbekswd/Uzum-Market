@@ -1,0 +1,224 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Uzum-header {
+  width: 1700px;
+  height: 700px;
+  border: 0px solid;
+}
+.Uzum-header-nav {
+  width: 1500px;
+  height: 200px;
+  border: 0px solid;
+}
+.Uzum-header-nav-top {
+  width: 100%;
+  height: 20%;
+  border: 0px solid;
+  display: flex;
+  background-color: rgb(220, 241, 255);
+}
+.Uzum-header-nav-top-left {
+  width: 30%;
+  height: 100%;
+  border: 0px solid;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.Uzum-header-nav-top-left p {
+  color: black;
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.Uzum-header-nav-top-left p span {
+  color: rgb(140, 138, 138);
+  text-decoration: underline;
+}
+.Uzum-header-nav-top-center {
+  width: 35%;
+  height: 100%;
+  border: 0px solid;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.Uzum-header-nav-top-center p {
+  color: black;
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.Uzum-header-nav-top-right {
+  width: 30%;
+  height: 100%;
+  border: 0px solid;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.Uzum-header-nav-top-right p {
+  color: black;
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.Uzum-header-nav-top-right select {
+  background-color: rgb(220, 241, 255);
+  border: none;
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.Uzum-header-nav-center {
+  width: 100%;
+  height: 50%;
+  border: 0px solid;
+  display: flex;
+}
+.Uzum-header-nav-center .Uzum-header-nav-top-center-left {
+  width: 30%;
+  height: 100%;
+  border: 0px solid;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Uzum-header-nav-center .Uzum-header-nav-top-center-left img {
+  width: 65%;
+  height: 70%;
+}
+.Uzum-header-nav-center .Uzum-header-nav-top-center-left .katalog {
+  width: 30%;
+  height: 45%;
+  border-radius: 5px;
+  background-color: rgb(220, 215, 237);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  transition: 0.3s;
+}
+.Uzum-header-nav-center .Uzum-header-nav-top-center-left .katalog p {
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #6134c2;
+}
+.Uzum-header-nav-center .Uzum-header-nav-top-center-left :hover {
+  background-color: #bab0ce;
+}
+.Uzum-header-nav-center .Uzum-header-nav-top-center-center {
+  width: 45%;
+  height: 100%;
+  border: 0px solid;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.Uzum-header-nav-center .Uzum-header-nav-top-center-center i {
+  top: 40%;
+  position: absolute;
+  right: 5%;
+}
+.Uzum-header-nav-center .Uzum-header-nav-top-center-center input {
+  width: 100%;
+  height: 50%;
+  border-radius: 5px;
+  border-color: #bab0ce;
+}
+.Uzum-header-nav-center .Uzum-header-nav-top-center-center input ::placeholder {
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.Uzum-header-nav-center .Uzum-header-nav-top-center-center ::placeholder {
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding-left: 10px;
+}
+.Uzum-header-nav-center .Uzum-header-nav-top-center-right {
+  width: 20%;
+  height: 100%;
+  border: 0px solid;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+}
+.Uzum-header-nav-center .Uzum-header-nav-top-center-right :hover {
+  color: #bab0ce;
+}
+.Uzum-header-nav-center .Uzum-header-nav-top-center-right p {
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.Uzum-header-nav-bottom {
+  width: 100%;
+  height: 30%;
+  border: 0px solid;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Uzum-header-nav-bottom p {
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #7f7e7f;
+}
+.Uzum-header-hero {
+  width: 1500px;
+  height: 500px;
+  border: 0px solid;
+}
+.Uzum-header-hero img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+main {
+  width: 1600px;
+  height: 2000px;
+  border: 0px solid;
+}
+main .KattaSotuvlar {
+  width: 93%;
+  height: 100%;
+  border: 0px solid;
+  margin-top: 50px;
+}
+main .KattaSotuvlar h1 {
+  font-size: 38px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+main .KattaSotuvlar .grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  row-gap: 30px;
+}
+main .KattaSotuvlar .grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 280px;
+  height: 550px;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 10px;
+}
+main .KattaSotuvlar .grid-item img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+/*# sourceMappingURL=main.css.map */
